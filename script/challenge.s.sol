@@ -12,6 +12,7 @@ contract chall is Script {
             vm.startBroadcast(key);
             challengedeployed = new challenge();
 
+            // vm.prank(0xE6e2595f5f910c8A6c4cf42267Ca350c6BA8c054);
             challengedeployed.add();
             vm.stopBroadcast();
         }
